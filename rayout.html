@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        #wrapper {
+        width: 960px;
+        background-color: blue;
+        }
+        .content {
+        width: 60%;
+        height: 400px;
+        background-color: #ffd800;
+        float: left;
+        }
+        .right-side{
+        width: 40%;
+        height: 400px;
+        background-color: green;
+        float: left;
+        }
+        footer{
+        height: 100px;
+        width: 100%;
+        background-color: brown;
+        clear: both;
+        font-size: 100%;
+        }
+        header{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: white;
+        line-height: 70px;
+        margin: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+           <h1 class="header-text">고정 그리드 레이아웃</h1>
+        </header>
+        <section class="content">
+           <h4>본문</h4>
+        </section>
+        <aside class="right-side">
+           <h4>사이드바</h4>
+        </aside>
+        <footer>
+           <h4>푸터</h4>
+        </footer>
+     </div>
+</body>
+</html>
