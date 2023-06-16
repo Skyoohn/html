@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>가변 그리드 레이아웃</title>
+   <style>
+      *{
+         margin: 0 auto;
+         padding: 0;
+      }
+      #wrapper{
+         height: 600px;
+         background-color: blue;
+         color: white;
+         text-align: center;
+         width: 90%;
+         margin-top: 3%;
+      }
+      header{
+         height: 100px;
+         margin: 0 auto;
+         line-height: 100px;
+         font-size: auto;
+         width: 100%;
+      }
+      content{
+         float: left;
+         background-color: yellow;
+         width: 60%;
+         height: 400px;
+         color: black;
+         overflow: hidden;
+      }
+      #side-bar{
+         background-color: aquamarine;
+         width: 40%;
+         height: 400px;
+         float: right;
+      }
+      footer{
+         clear: both;
+         background-color: brown;
+         height: 100px;
+         width: 100%;
+      }
+      img{
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <div id="wrapper">
+      <header>
+         <h1>가변 그리드 레이아웃</h1>
+      </header>
+      <content>
+         본문
+         <img src="images/bg0.jpg">
+      </content>
+      <div id="side-bar">
+         사이드바
+      </div>
+      <footer>
+         푸터
+      </footer>
+   </div>
+</body>
+</html>

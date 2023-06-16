@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      @media screen and (max-width:1024px) {
+         .AA {width: 50px;}
+      }
+      @media screen and (max-width:784px) {
+         #wrapper {width: 10%;}
+      }
+      h1{
+         text-align: center;
+      }
+      #wrapper{
+         display: flex;
+         justify-content: center;
+         background-color: black;
+      }
+      .AA{
+         background-color: purple;
+         width: 100px;
+         height: 100px;
+      }
+      #BB{
+         background-color: brown;
+         width: 100px;
+         height: 100px;
+         margin: 5px;
+      }
+      #CC{
+         background-color: fuchsia;         
+         width: 100px;
+         height: 100px;
+         margin: 5px;
+      }
+      #DD{
+         background-color: lightcoral;
+         width: 100px;
+         height: 100px;
+         margin: 5px;
+      }
+   </style>
+</head>
+<body>
+   <h1>반응형 웹 디자인</h1>
+   <div id="wrapper">
+         <div class="AA"></div>
+         <div id="BB"></div>
+         <div id="CC"></div>
+         <div id="DD"></div>
+   </div>
+</body>
+</html>
